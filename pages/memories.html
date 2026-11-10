@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8e8ee">
+  <title>Воспоминания ♡</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/animations.css">
+  <link rel="stylesheet" href="../css/mobile.css">
+  <link rel="stylesheet" href="../css/experiences.css">
+</head>
+<body class="lw-page-body" data-page="memories">
+  <div class="lw-glow lw-glow--one" aria-hidden="true"></div><div class="lw-glow lw-glow--two" aria-hidden="true"></div><div class="lw-grain" aria-hidden="true"></div>
+  <button class="lw-secret-heart lw-secret-heart--memories" data-secret-heart="memories" type="button" aria-label="Секретное сердечко">♥</button>
+  <header class="lw-header lw-container"><a class="lw-brand" href="../index.html"><span class="lw-brand__mark">♡</span>наш маленький мир</a><a class="lw-back" href="../index.html">← на главную</a></header>
+  <main class="lw-experience lw-container">
+    <section class="lw-page-intro lw-reveal"><p class="lw-eyebrow"><span></span>наша история в деталях<span></span></p><h1>Воспоминания,<br>которые хочется прожить ещё раз.</h1><p>Нажми на фотографию, чтобы приблизить момент. Или выбери звезду — у каждой есть своя история.</p></section>
+    <nav class="lw-view-switch" aria-label="Режим просмотра"><button class="is-active" type="button" data-view="gallery">Воспоминания</button><button type="button" data-view="calendar">Наш календарь</button><button type="button" data-view="sky">Небо воспоминаний</button></nav>
+    <section data-panel="gallery"><div class="lw-filters" data-filters aria-label="Категории воспоминаний"></div><div class="lw-polaroids" data-memories-grid></div><section class="lw-add-memory"><div><p class="lw-eyebrow"><span></span>ваша общая галерея</p><h2>Добавить новый момент</h2><p>Фото и текст сохранятся в этом браузере — как личный мини-инстаграм только для вас двоих.</p></div><form data-memory-form><label>Фотография<input name="photo" type="file" accept="image/jpeg,image/png,image/webp" required></label><label>Название<input name="title" maxlength="55" placeholder="Например: вечер у моря" required></label><label>Дата<input name="date" type="date" required></label><label>Категория<input name="category" maxlength="28" placeholder="прогулки" value="наша галерея"></label><label class="lw-form-wide">Подпись<textarea name="caption" maxlength="150" placeholder="Несколько слов к фотографии" required></textarea></label><label class="lw-form-wide">Почему этот день дорог?<textarea name="story" maxlength="900" placeholder="Ваша маленькая история" required></textarea></label><button class="lw-small-button" type="submit">Сохранить воспоминание</button><p class="lw-form-status" data-memory-status aria-live="polite"></p></form></section></section>
+    <section class="lw-calendar-panel" data-panel="calendar" hidden><p class="lw-panel-lead">Важные дни на нашей временной шкале. Нажми на точку, чтобы открыть воспоминание.</p><div class="lw-timeline" data-timeline></div></section>
+    <section class="lw-sky-panel" data-panel="sky" hidden><p class="lw-panel-lead">Каждая звезда — маленький мир, в котором мы уже были.</p><div class="lw-sky" data-sky aria-label="Интерактивное звёздное небо"></div></section>
+  </main>
+  <div class="lw-memory-modal" data-memory-modal aria-hidden="true"><div class="lw-modal-shade" data-close-modal></div><article class="lw-memory-dialog" role="dialog" aria-modal="true" aria-labelledby="memory-title"><button class="lw-close" type="button" data-close-modal aria-label="Закрыть">×</button><div class="lw-modal-media" data-modal-media></div><p class="lw-modal-date" data-modal-date></p><h2 id="memory-title" data-modal-title></h2><p class="lw-modal-caption" data-modal-caption></p><div class="lw-modal-story" data-modal-story></div></article></div>
+  <script src="../js/storage.js" defer></script><script src="../js/main.js" defer></script><script src="../js/memories.js" defer></script>
+</body>
+</html>

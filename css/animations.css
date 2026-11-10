@@ -1,0 +1,6 @@
+@keyframes lw-pulse { 0%,100%{box-shadow:0 0 0 4px rgba(217,125,157,.14)} 50%{box-shadow:0 0 0 8px rgba(217,125,157,.03)} }
+@keyframes lw-float { 0%,100%{transform:translateY(0) rotate(0)} 50%{transform:translateY(-12px) rotate(1deg)} }
+@keyframes lw-drift { 0%,100%{transform:rotate(0) translate(0)} 50%{transform:rotate(8deg) translate(8px,-6px)} }
+@keyframes lw-reveal { to { opacity:1; transform:translateY(0) } }
+.lw-card--main{animation:lw-float 5.5s ease-in-out infinite}.lw-card--back{animation:lw-float 6.2s ease-in-out .7s infinite}.lw-card--note{animation:lw-float 5.8s ease-in-out 1.2s infinite}.lw-orbit--two{animation:lw-drift 12s ease-in-out infinite}.lw-reveal{opacity:0;transform:translateY(18px);animation:lw-reveal .7s cubic-bezier(.2,.8,.2,1) forwards}.lw-reveal--late{animation-delay:.18s}.lw-delay-1{animation-delay:.08s}.lw-delay-2{animation-delay:.16s}.lw-delay-3{animation-delay:.24s}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}

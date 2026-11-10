@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8e8ee">
+  <title>Наш мир ♡</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/animations.css">
+  <link rel="stylesheet" href="../css/mobile.css">
+  <link rel="stylesheet" href="../css/experiences.css">
+</head>
+<body class="lw-page-body lw-world-page" data-page="world">
+  <div class="lw-glow lw-glow--one" aria-hidden="true"></div><div class="lw-glow lw-glow--two" aria-hidden="true"></div><div class="lw-grain" aria-hidden="true"></div>
+  <button class="lw-secret-heart lw-secret-heart--world" data-secret-heart="world" type="button" aria-label="Секретное сердечко">♥</button>
+  <header class="lw-header lw-container"><a class="lw-brand" href="../index.html"><span class="lw-brand__mark">♡</span>наш маленький мир</a><a class="lw-back" href="../index.html">← на главную</a></header>
+  <main class="lw-experience lw-container">
+    <section class="lw-page-intro lw-reveal"><p class="lw-eyebrow"><span></span>немного магии для нас<span></span></p><h1>Наш мир<br>в маленьких играх.</h1><p>Здесь можно улыбнуться, вспомнить важное и случайно найти несколько секретов.</p></section>
+    <section class="lw-progress-card" data-progress-card></section>
+    <section class="lw-games-grid" aria-label="Мини-игры">
+      <article class="lw-game-card"><span>✦</span><h2>Как хорошо ты меня знаешь?</h2><p>Три тёплых вопроса о нас.</p><button class="lw-small-button" data-start-quiz="me" type="button">Начать</button></article>
+      <article class="lw-game-card"><span>♡</span><h2>Наша викторина</h2><p>Проверь, помнишь ли ты наши маленькие традиции.</p><button class="lw-small-button" data-start-quiz="us" type="button">Начать</button></article>
+      <article class="lw-game-card"><span>☾</span><h2>Memory Match</h2><p>Найди все пары до того, как закончится терпение.</p><button class="lw-small-button" data-start-match type="button">Играть</button></article>
+      <article class="lw-game-card"><span>♥</span><h2>Найди сердце</h2><p>Поймай пять спрятанных сердечек на поле.</p><button class="lw-small-button" data-start-hunt type="button">Искать</button></article>
+    </section>
+    <section class="lw-wonders">
+      <article class="lw-wonder lw-jar-card"><p class="lw-eyebrow"><span></span>reasons why I love you</p><div class="lw-jar-visual" aria-hidden="true">♡<i>♥</i><i>✦</i><i>♥</i></div><h2>Баночка причин</h2><p data-reason>Нажми на баночку — в ней есть 40 маленьких признаний.</p><button class="lw-small-button" data-draw-reason type="button">Достать записку</button></article>
+      <article class="lw-wonder"><p class="lw-eyebrow"><span></span>daily surprise</p><h2>Сюрприз на сегодня</h2><p data-daily>Один новый тёплый сюрприз ждёт тебя каждый день.</p><button class="lw-small-button" data-daily-button type="button">Открыть сюрприз</button></article>
+      <article class="lw-wonder"><p class="lw-eyebrow"><span></span>time capsule</p><h2>Капсула времени</h2><p>Оставь себе слова из сегодняшнего дня и назначь дату открытия.</p><form data-capsule-form><label>Дата открытия<input type="date" data-capsule-date required></label><label>Послание<textarea data-capsule-text maxlength="700" placeholder="Что ты хочешь сказать себе в будущем?" required></textarea></label><button class="lw-small-button" type="submit">Запечатать</button></form><div data-capsule-result></div></article>
+    </section>
+    <section class="lw-secret-section" data-secret-section hidden><span>✦</span><p class="lw-eyebrow"><span></span>все секреты найдены</p><h2>Ты нашла путь к сердцу этого мира.</h2><p>Пусть это будет напоминанием: в каждой нашей истории есть ещё немного магии, если смотреть внимательно.</p></section>
+  </main>
+  <div class="lw-game-modal" data-game-modal aria-hidden="true"><div class="lw-modal-shade" data-close-game></div><article class="lw-game-dialog" role="dialog" aria-modal="true" aria-labelledby="game-title"><button class="lw-close" type="button" data-close-game aria-label="Закрыть">×</button><div data-game-content></div></article></div>
+  <script src="../js/storage.js" defer></script><script src="../js/main.js" defer></script><script src="../js/games.js" defer></script>
+</body>
+</html>

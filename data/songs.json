@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Тот момент что не забывается.",
+    "artist": "Сериал",
+    "src": "assets/music/02-our-song.mp3",
+    "cover": "assets/covers/02-our-song.jpg",
+    "note": "Песня которая связывает нас с тобой общим воспоминанием."
+  },
+  {
+    "title": "Чудо друг друга.",
+    "artist": "Любовь HD1080",
+    "src": "assets/music/03-love.mp3",
+    "cover": "assets/covers/03-love.jpg",
+    "note": "Та самая песня которая напоминает наш комфорт друг с другом."
+  },
+  {
+    "title": "Твоя инста наше все",
+    "artist": "А я забыл",
+    "src": "assets/music/04-atmosphere.mp3",
+    "cover": "assets/covers/04-atmosphere.jpg",
+    "note": "Пусть она напоминает, что впереди ещё много наших дней."
+  },
+  {
+  "title": "Наше маленькое «навсегда»",
+  "artist": "Солнце лучик",
+  "src": "assets/music/01-my-song.mp3",
+  "cover": "assets/covers/01-my-song.jpg",
+  "note": "Та самая песня, в моей инсте которую я поставил ради тебя."
+  },
+  {
+  "title": "Песня которая связывает тебя со мной.",
+  "artist": "Rain dance",
+  "src": "assets/music/5-your.mp3",
+  "cover": "assets/covers/5-your.jpg",
+  "note": "Та самая песня, в моей инсте которую я поставил ради тебя."
+  }
+
+]
